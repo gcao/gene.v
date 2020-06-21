@@ -1,5 +1,9 @@
 module gene
 
-pub fn parse() {
+pub struct Parser {
+	input str
+}
+
+(p &Parser) fn parse() {
 
 }

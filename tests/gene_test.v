@@ -1,6 +1,6 @@
 import gene
 
 fn test_parse() {
-	gene.parse()
-	assert(false)
+	p := Parser{}
+	p.parse("true")
 }
